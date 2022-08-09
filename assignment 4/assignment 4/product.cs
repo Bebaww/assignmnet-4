@@ -16,9 +16,11 @@ namespace assignment_4
 
         public string exp_date { get; set; }
         public bool avalable { get; set; }
+        /*public bool packed { get; set; }
+        public bool unpacked { get; set; }   */
         public string type { get; set; }
-            
-       
+
+
 
         public void save()
         {

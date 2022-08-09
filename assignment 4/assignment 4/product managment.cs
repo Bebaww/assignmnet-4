@@ -12,7 +12,7 @@ namespace assignment_4
 {
     public partial class product_managment : Form
     {
-        string types;
+      string types;
         public product_managment()
         {
             InitializeComponent();
@@ -31,12 +31,13 @@ namespace assignment_4
 
         private void packed_CheckedChanged(object sender, EventArgs e)
         {
-            types = packed.Text;
+            types = packed.Text; 
         }
 
         private void unpacked_CheckedChanged(object sender, EventArgs e)
         {
             types = unpacked.Text;
+
         }
     }
 }
