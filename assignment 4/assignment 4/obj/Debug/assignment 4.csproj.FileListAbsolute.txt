@@ -10,3 +10,5 @@ C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assign
 C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assignment 4.exe
 C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assignment 4.pdb
 C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assignment_4.product_managment.resources
+C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assignment_4.Form2.resources
+C:\Users\user\Desktop\c#\assignmnet-4\assignment 4\assignment 4\obj\Debug\assignment_4.search.resources

@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\c#\assignmnet-4\try\try\obj\Debug\net6.0\try.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\c#\assignmnet-4\try\try\obj\Debug\net6.0\try.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\c#\assignmnet-4\try\try\obj\Debug\net6.0\try.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\c#\assignmnet-4\try\try\obj\Debug\net6.0\try.AssemblyInfo.cs
+C:\Users\user\Desktop\c#\assignmnet-4\try\try\obj\Debug\net6.0\try.csproj.CoreCompileInputs.cache

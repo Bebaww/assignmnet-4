@@ -26,7 +26,7 @@ namespace assignment_4
         {
             if(txt_username.Text=="admin" & txt_password.Text=="admin" )
             {
-                product_managment p= new product_managment();
+               product_managment p= new product_managment();
                 p.Show();
 
             }

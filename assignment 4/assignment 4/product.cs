@@ -20,7 +20,10 @@ namespace assignment_4
         public bool unpacked { get; set; }   */
         public string type { get; set; }
 
-
+        public static product findone(string product_name)
+        {
+            return products.Find(p => p.product_name==product_name);
+        }
 
         public void save()
         {
@@ -29,6 +32,7 @@ namespace assignment_4
 
         }
        
+
         public static List<product> getallproducts()
         {
             return products;
