@@ -42,6 +42,8 @@
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.packed = new System.Windows.Forms.RadioButton();
             this.unpacked = new System.Windows.Forms.RadioButton();
+            this.txt_price = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,11 +172,29 @@
             this.unpacked.UseVisualStyleBackColor = true;
             this.unpacked.CheckedChanged += new System.EventHandler(this.unpacked_CheckedChanged);
             // 
+            // txt_price
+            // 
+            this.txt_price.Location = new System.Drawing.Point(642, 96);
+            this.txt_price.Name = "txt_price";
+            this.txt_price.Size = new System.Drawing.Size(100, 20);
+            this.txt_price.TabIndex = 19;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(551, 96);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(30, 13);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "price";
+            // 
             // product_managment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(819, 450);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txt_price);
             this.Controls.Add(this.unpacked);
             this.Controls.Add(this.packed);
             this.Controls.Add(this.dataGridView);
@@ -215,5 +235,7 @@
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.RadioButton packed;
         private System.Windows.Forms.RadioButton unpacked;
+        private System.Windows.Forms.TextBox txt_price;
+        private System.Windows.Forms.Label label6;
     }
 }

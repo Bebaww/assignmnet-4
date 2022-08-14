@@ -23,7 +23,7 @@ namespace assignment_4
 
 
             
-            product p = new product{type=types,prod_date = production_date.Text, exp_date =expiry_date.Text, avalable = chk_box.Checked, product_name = txt_name.Text  ,batch_no=txt_batch.Text};
+            product p = new product{ price = Convert.ToInt32 ( txt_price.Text),type=types,prod_date = production_date.Text, exp_date =expiry_date.Text, avalable = chk_box.Checked, product_name = txt_name.Text  ,batch_no=txt_batch.Text};
             p.save();
             dataGridView.DataSource = null;
             dataGridView.DataSource = product.getallproducts();

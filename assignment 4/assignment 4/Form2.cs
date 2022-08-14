@@ -44,5 +44,11 @@ namespace assignment_4
             Form1 f = new Form1();
             f.Show();
         }
+
+        private void displayAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            display_all d = new display_all();
+            d.Show();
+        }
     }
 }
